@@ -44,7 +44,7 @@ h3 {
     text-shadow: 2px 1px 5px gray;
     color: #0abeb8;
 }
-.explanation, .participation {
+.explanation {
   border-bottom: 3px solid #eae914;
     }
 .preamble {
@@ -83,6 +83,42 @@ footer {
     background-color: #e9328e;
 }
 a {
-    color: rgb(43, 116, 226);
+    color: rgb(5, 170, 170);
     text-decoration: none;
+}
+@media (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 770px) {
+    .page-wrapper {
+      margin: 200px auto;
+    }
+}
+@media (min-width: 870px) {
+    .page-wrapper {
+      margin: 230px auto;
+    }
+}
+@media (min-width: 1012px) {
+    .page-wrapper {
+      margin: 270px auto;
+    }
+}
+@media (min-width: 1280px) {
+    .page-wrapper {
+      margin: 300px auto;
+    }
+}
+@media (min-width: 1400px) {
+    .page-wrapper {
+      margin: 350px auto;
+    }
+}
+@media (min-width: 1600px) {
+    .page-wrapper {
+      margin: 420px auto;
+    }
 }
