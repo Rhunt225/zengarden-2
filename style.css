@@ -1,0 +1,88 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    }
+    * {
+    box-sizing: border-box;
+    }
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #6f80e6;
+    text-align: center;
+    background-image: url("Tennis\ Stationary-3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.page-wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    width: 75%;
+    max-width: 1200px;
+    margin: 175px auto;
+    padding: 0px 32px;
+    }
+
+h1{
+    text-transform: uppercase;
+    text-shadow: 3px 2px 6px gray; 
+    color: #ddf033;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 5px gray;
+    color: #e9328e;
+    margin: 0px;
+    font-weight: bolder;
+}
+h3 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 5px gray;
+    color: #0abeb8;
+}
+.explanation, .participation {
+  border-bottom: 3px solid #eae914;
+    }
+.preamble {
+    background-image: url("Stripes-2.jpg");
+    background-size: contain;
+    color: #e9328e;
+    margin-left: -30%;
+    padding: 2% 1% 2% 30%;
+    text-align: left;
+    border: 3px solid #82dfd1; 
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+.benefits {
+    background-image: url("Stripes-2.jpg");
+    background-size: contain;
+    color: #e9328e;
+    margin-right: -30%;
+    padding: 2% 30% 2% 1%; 
+    text-align: right;
+    border: 3px solid #82dfd1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+ul {
+    list-style: none;
+}
+footer {
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #e9328e;
+}
+a {
+    color: rgb(43, 116, 226);
+    text-decoration: none;
+}
