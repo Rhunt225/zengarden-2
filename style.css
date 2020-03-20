@@ -84,6 +84,9 @@ a {
     color: rgb(5, 170, 170);
     text-decoration: none;
 }
+a:hover{
+    color: #e9328e;
+}
 @media (min-width: 700px) {
     .wrapper {
       display: grid;
